@@ -1,0 +1,28 @@
+{
+  "name": "muxu-delivery",
+  "version": "1.0.0",
+  "description": "Delivery Status for Muxu.Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "touch index.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muxumuxu/muxu-delivery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muxumuxu/muxu-delivery/issues"
+  },
+  "homepage": "https://github.com/muxumuxu/muxu-delivery#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongodb": "^2.2.24"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
